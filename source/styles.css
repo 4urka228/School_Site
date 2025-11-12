@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  color: #343A40;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  background: #4D94FF;
+  color: #FFFFFF;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(77,148,255,0.12);
+}
+
+.header-content  {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.hero {
+  background: #bbd6ff;
+  color: #343A40;
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.main-content h2 {
+  color: #4D94FF;
+  margin-bottom: 1rem;
+}
+
+#about {
+  background: #FFFFFF;
+  padding: 3rem 0;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.news-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.about-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(52,58,64,0.08);
+  padding: 2rem;
+  max-width: 320px;
+  min-width: 260px;
+  color: #343A40;
+  border-left: 6px solid #4D94FF;
+  transition: transform 0.3s, border-color 0.2s;
+}
+.news-item {
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(52,58,64,0.08);
+  padding: 2rem;
+  max-width: 320px;
+  min-width: 260px;
+  color: #343A40;
+  border-left: 6px solid #4D94FF;
+  transition: transform 0.3s, border-color 0.2s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+}
+.news-item:hover {
+  transform: translateY(-6px);
+}
+
+.about-card h3 {
+  color: #4D94FF;
+  margin-top: 0;
+}
+.news-item h3 {
+  color: #4D94FF;
+  margin-top: 0;
+}
+
+.about-card p {
+  color: #343A40;
+  font-size: 1rem;
+}
+.news-item p {
+  color: #343A40;
+  font-size: 1rem;
+}
+/* News item date style */
+.news-item-date {
+  color: #FFD24A;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.pic {
+  border-radius: 16px;
+}
+
+
+footer {
+  background: #FFFFFF;
+  color: #343A40;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 2px solid #FFD24A;
+}
+
+.footer-content h2 {
+  color: #4D94FF;
+  margin-bottom: 1rem;
+}
+
+.footer-content a {
+  margin: 0 3px;
+}
